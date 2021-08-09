@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.ConvTemperaturaActivity">
+
+    <EditText
+        android:id="@+id/e_celcius"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Ingrese C°"
+        android:inputType="textPersonName"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/t_Caf"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/e_farenheit"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Ingrese F°"
+        android:inputType="textPersonName"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/t_Fac"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/b_convertir_CaF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="convertir C° a F°" />
+
+    <Button
+        android:id="@+id/b_convertir_FaC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONVERTIR F° A C°" />
+</LinearLayout>
